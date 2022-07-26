@@ -38,7 +38,7 @@ const config = {
         allow_origin: '*'
     },
     relay: {
-        ffmpeg: '/usr/local/bin/ffmpeg',
+        ffmpeg: '/usr/bin/ffmpeg',
         tasks: [
             {
                 app: 'cctv',
