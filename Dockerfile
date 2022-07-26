@@ -9,4 +9,4 @@ ADD . ./
 RUN pnpm install -r --offline --prod
 #RUN npm install
 #COPY . .
-CMD ["node","bot.js"]
+CMD ["node","index.js"]
