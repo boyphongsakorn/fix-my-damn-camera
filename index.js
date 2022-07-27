@@ -46,6 +46,13 @@ const config = {
                 edge: 'rtsp://admin:team1556th@192.168.31.205:554/onvif1',
                 name: 'uterum',
                 rtsp_transport : 'udp' //['udp', 'tcp', 'udp_multicast', 'http']
+            },
+            {
+                app: 'cctv',
+                mode: 'static',
+                edge: 'rtsp://admin:team1556th@192.168.31.205:554/onvif2',
+                name: 'tertwo',
+                rtsp_transport : 'udp' //['udp', 'tcp', 'udp_multicast', 'http']
             }
         ]
     }
