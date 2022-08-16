@@ -30,8 +30,8 @@ const config = {
         port: 1935,
         chunk_size: 60000,
         gop_cache: true,
-        ping: 60,
-        ping_timeout: 30
+        ping: 30,
+        ping_timeout: 60
     },
     http: {
         port: 8000,
@@ -42,14 +42,14 @@ const config = {
         tasks: [
             {
                 app: 'cctv',
-                mode: 'static',
+                mode: 'pull',
                 edge: 'rtsp://admin:team1556th@192.168.31.205:554/onvif1',
                 name: 'uterum',
                 rtsp_transport : 'udp' //['udp', 'tcp', 'udp_multicast', 'http']
             },
             {
                 app: 'cctv',
-                mode: 'static',
+                mode: 'pull',
                 edge: 'rtsp://admin:team1556th@192.168.31.205:554/onvif2',
                 name: 'tertwo',
                 rtsp_transport : 'udp' //['udp', 'tcp', 'udp_multicast', 'http']
