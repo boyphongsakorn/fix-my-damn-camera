@@ -45,7 +45,7 @@ const config = {
                 mode: 'static',
                 edge: 'rtsp://192.168.200.1:554',
                 name: 'uterum',
-                rtsp_transport : 'udp' //['udp', 'tcp', 'udp_multicast', 'http']
+                rtsp_transport : 'tcp' //['udp', 'tcp', 'udp_multicast', 'http']
             },
 //             {
 //                 app: 'cctv',
