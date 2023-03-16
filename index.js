@@ -28,7 +28,7 @@ const config = {
     logType: 3, // 3 - Log everything (debug)
     rtmp: {
         port: 1935,
-        chunk_size: 60000,
+        chunk_size: 120000,
         gop_cache: true,
         ping: 60,
         ping_timeout: 120
