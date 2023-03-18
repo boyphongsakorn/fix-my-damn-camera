@@ -6,7 +6,8 @@ COPY package*.json ./
 COPY pnpm-*.yaml ./
 RUN pnpm fetch --prod
 ADD . ./
-RUN pnpm install -r --offline --prod
+# RUN pnpm install -r --offline --prod
+RUN pnpm install -r --prod
 #RUN npm install
 #COPY . .
 CMD ["node","index.js"]
