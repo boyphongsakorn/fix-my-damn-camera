@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "fastify": "^4.20.0",
+    "fastify": "^4.21.0",
     "node-media-server": "^2.6.2",
     "node-rtsp-stream": "^0.0.9",
     "rtsp-over-http": "^1.0.0",
