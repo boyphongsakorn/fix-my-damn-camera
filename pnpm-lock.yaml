@@ -12,8 +12,8 @@ dependencies:
     specifier: ^4.26.2
     version: 4.26.2
   node-media-server:
-    specifier: ^2.6.2
-    version: 2.6.2
+    specifier: ^2.6.6
+    version: 2.6.6
   node-rtsp-stream:
     specifier: ^0.0.9
     version: 0.0.9
@@ -696,8 +696,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /node-media-server@2.6.2:
-    resolution: {integrity: sha512-k/fsilAMh3G8P2hj11mp8gj5i5eXy7QrbY0CZUwQxVc0fHalIEIfSrxFzK2kP38XaEwOCmQlFS5zj5/JGQvl8A==}
+  /node-media-server@2.6.6:
+    resolution: {integrity: sha512-2j1XZGRNvb2Pb/Hb8btz3yUWI2tarNArp0OCCWQklF45n8u5cSRwxT/vPJXIUUezgMdGCpryOruB+IUrsOtgyw==}
     engines: {node: '>=8.0.0'}
     hasBin: true
     dependencies:
