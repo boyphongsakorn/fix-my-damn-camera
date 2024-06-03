@@ -21,8 +21,8 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0
   rtsp-relay:
-    specifier: ^1.8.0
-    version: 1.8.0(express@4.19.2)
+    specifier: ^1.9.0
+    version: 1.9.0(express@4.19.2)
   socket.io:
     specifier: ^4.7.5
     version: 4.7.5
@@ -926,8 +926,8 @@ packages:
     resolution: {integrity: sha512-D16qB3B/2+9DGSZcvkxRMCtoJyLGYkPrUkA6oIgHn/7S9XM9ukm8JDa56cqku00vKmTNZoWOO2HpJvfrz0ozYg==}
     dev: false
 
-  /rtsp-relay@1.8.0(express@4.19.2):
-    resolution: {integrity: sha512-uYJAB/OIwDM7IYUSgDjL+dFK2I6B8fA284n2SADESwHLlWwcuqsKAcqKqVkuJtx4mSOf9QFMSUSt9PnYdRZvsA==}
+  /rtsp-relay@1.9.0(express@4.19.2):
+    resolution: {integrity: sha512-L2AhN5oWqRthpk1wssSkXhAQhGoFyVDMug4DvX1Lyhbch2dlYmQ3IgPTZ5SSmGu/AXcNKHf0x1XR7cZ2L49F4A==}
     engines: {node: '>=10.0.0'}
     dependencies:
       express-ws: 5.0.2(express@4.19.2)
